@@ -7,7 +7,7 @@
     session_start();
 
     function getCourse($oC, $iC) {
-        $key = "";
+        $key = "yourkey";
         $url = "https://currate.ru/api/?get=rates&pairs=$iC$oC&key=$key"; // Курсы старые 2018-19 год (в будущем можно менять)
 
 
